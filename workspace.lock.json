@@ -12,8 +12,8 @@
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "8c1e2c8dcecbacd38ee4b77625837f0cc047f60e",
-      "subject": "Use Pat and Gerry's real photos in the hero meeting window"
+      "commit": "79751da400725fd0ec000c70bd2b99881523059d",
+      "subject": "Present Pat's portrait camera the way meeting clients do"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
