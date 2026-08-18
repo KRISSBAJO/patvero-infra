@@ -12,8 +12,8 @@
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "0cd16131d0d3fb85312bfdf559008b7be71ff6ea",
-      "subject": "Consolidate the landing narrative and vary its rhythm"
+      "commit": "5381f333e6c0b9553f67603cddbbb3271e5a33bc",
+      "subject": "Make on-page room links actually open the join flow"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
