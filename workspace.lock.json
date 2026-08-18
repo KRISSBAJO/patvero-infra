@@ -12,8 +12,8 @@
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "88e43f81c29f18f7967a592663607eb6385cd67e",
-      "subject": "Describe the full web surface in the README"
+      "commit": "fa5ce71500dfff6582e56b48c5fc0fe0bb193062",
+      "subject": "Load the meeting stack on demand from the landing page"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
