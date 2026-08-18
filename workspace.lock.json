@@ -12,8 +12,8 @@
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "fa5ce71500dfff6582e56b48c5fc0fe0bb193062",
-      "subject": "Load the meeting stack on demand from the landing page"
+      "commit": "da2e249bef101e7142eac7d03e66e5b203b93481",
+      "subject": "Add the product surface section and a dark theme"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
