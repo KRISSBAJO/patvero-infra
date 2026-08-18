@@ -12,8 +12,8 @@
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "b15b5e403b4bf557d40f3e5d322f5afe6ccc98ff",
-      "subject": "Add scroll-linked reveals and a proof section"
+      "commit": "e619bad38331952b77da547743767db72622c962",
+      "subject": "Rebalance the hero typography and mobile proportions"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
