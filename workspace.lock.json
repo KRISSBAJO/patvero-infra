@@ -12,8 +12,8 @@
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "182cb00b757cf72b176b2c715780f42aba7f36af",
-      "subject": "Fix the proof card layout and even out the card grids"
+      "commit": "0cd16131d0d3fb85312bfdf559008b7be71ff6ea",
+      "subject": "Consolidate the landing narrative and vary its rhythm"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
