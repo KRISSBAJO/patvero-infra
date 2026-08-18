@@ -1,25 +1,25 @@
 {
   "$comment": "Records the commit of each independently-versioned subproject that together form a working set. The three app repos have their own remotes and are NOT tracked by this repository; liveKit-video-infra IS tracked here. Verify with `npm run pin:check`, restore with `npm run pin:sync`, re-pin with `npm run pin:update`.",
   "pinnedAt": "2026-08-18",
-  "note": "User-facing copy renamed from Mohuddle to Patvero across the backend, with web and mobile contracts regenerated to match. The Mohuddle identity provider integration and the mohuddle_user_id primary key are intentionally unchanged.",
+  "note": "READMEs rewritten to describe the real platform scope across all four projects. Follows the Patvero user-facing copy rename; the Mohuddle identity provider integration remains unchanged.",
   "repositories": {
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "ef039f25d2398b408abba9e05e849b6a1ca60524",
-      "subject": "Rename user-facing copy from Mohuddle to Patvero"
+      "commit": "10d01c5ffcbda429a8033aabfa4b15b425f543f6",
+      "subject": "Describe the full API surface in the README"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "cfc40b79bb6a46f807c2d30d2186ef56c7acaa3c",
-      "subject": "Sync API contracts after the Patvero copy rename"
+      "commit": "88e43f81c29f18f7967a592663607eb6385cd67e",
+      "subject": "Describe the full web surface in the README"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
       "branch": "codex/captions-summary-fix",
-      "commit": "6d69ba2bdd83707e5fc56e0d020a834b98d15a8d",
-      "subject": "Sync API contracts after the Patvero copy rename"
+      "commit": "fdeb806db72d9697908d229f3b944b14b85779ff",
+      "subject": "Correct the mobile README scope and CallKit status"
     }
   }
 }
