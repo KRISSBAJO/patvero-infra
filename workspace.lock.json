@@ -6,14 +6,14 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "5c3ffef143dc72da38c072d70d3955693ad13f5b",
-      "subject": "Open the seeded demo room to anyone with the link"
+      "commit": "1fd550d17a0fff12abfa465fff39a0ccda42e71b",
+      "subject": "Add a production-safe demo room provisioner"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "257ef740f10ce809cf414299c48912a4842cc58a",
-      "subject": "Add a live demo entry point and surface pricing on the landing page"
+      "commit": "b15b5e403b4bf557d40f3e5d322f5afe6ccc98ff",
+      "subject": "Add scroll-linked reveals and a proof section"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
