@@ -12,8 +12,8 @@
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "79751da400725fd0ec000c70bd2b99881523059d",
-      "subject": "Present Pat's portrait camera the way meeting clients do"
+      "commit": "21447b7b0628dfa1039e9e4099f13ef6cb282ec6",
+      "subject": "Use Pat's new landscape photo with a plain crop"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
