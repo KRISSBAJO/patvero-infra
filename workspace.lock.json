@@ -6,20 +6,20 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "10d01c5ffcbda429a8033aabfa4b15b425f543f6",
-      "subject": "Describe the full API surface in the README"
+      "commit": "5c3ffef143dc72da38c072d70d3955693ad13f5b",
+      "subject": "Open the seeded demo room to anyone with the link"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "da2e249bef101e7142eac7d03e66e5b203b93481",
-      "subject": "Add the product surface section and a dark theme"
+      "commit": "257ef740f10ce809cf414299c48912a4842cc58a",
+      "subject": "Add a live demo entry point and surface pricing on the landing page"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
       "branch": "codex/captions-summary-fix",
-      "commit": "fdeb806db72d9697908d229f3b944b14b85779ff",
-      "subject": "Correct the mobile README scope and CallKit status"
+      "commit": "f4a7f50912eaaa54df881a502c82d29685de04f4",
+      "subject": "Sync API contracts after the demo room join code change"
     }
   }
 }
