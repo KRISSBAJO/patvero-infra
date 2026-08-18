@@ -12,8 +12,8 @@
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "5381f333e6c0b9553f67603cddbbb3271e5a33bc",
-      "subject": "Make on-page room links actually open the join flow"
+      "commit": "8c1e2c8dcecbacd38ee4b77625837f0cc047f60e",
+      "subject": "Use Pat and Gerry's real photos in the hero meeting window"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
