@@ -6,8 +6,8 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "1fd550d17a0fff12abfa465fff39a0ccda42e71b",
-      "subject": "Add a production-safe demo room provisioner"
+      "commit": "8e69fc30ab1427e9e2b5a01893c7b580b0692f8d",
+      "subject": "Give the provisioned demo room a joinable occurrence"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
