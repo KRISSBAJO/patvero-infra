@@ -1,0 +1,16 @@
+{
+  "Rules": [
+    {
+      "ID": "expire-incomplete-recording-uploads",
+      "Status": "Enabled",
+      "Filter": { "Prefix": "mohuddle/recordings/" },
+      "AbortIncompleteMultipartUpload": { "DaysAfterInitiation": 2 }
+    },
+    {
+      "ID": "archive-recordings",
+      "Status": "Enabled",
+      "Filter": { "Prefix": "mohuddle/recordings/" },
+      "Transitions": [{ "Days": 30, "StorageClass": "STANDARD_IA" }]
+    }
+  ]
+}

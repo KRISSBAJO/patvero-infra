@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.next/
+.vinext/
+.env
+.env.*
+!.env.example
+!.env.*.example
+coverage/
+*.log
+*.tsbuildinfo
+.DS_Store
+
+# Independently versioned application repositories.
+# Their commits are recorded in workspace.lock.json; see npm run pin:check.
+/liveKit-be/
+/liveKit-video-fe/
+/liveKit-video-mobile/

@@ -1,0 +1,66 @@
+services:
+  redis:
+    image: redis:7.4-alpine
+    command: redis-server --appendonly yes
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:6380:6379"
+    volumes:
+      - livekit_redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  livekit:
+    image: livekit/livekit-server:v1.13.5
+    command: --config /etc/livekit/livekit.yaml
+    restart: unless-stopped
+    depends_on:
+      redis:
+        condition: service_healthy
+    ports:
+      - "7880:7880"
+      - "7881:7881"
+      - "50000-50100:50000-50100/udp"
+    volumes:
+      - ./livekit.yaml:/etc/livekit/livekit.yaml:ro
+
+  egress:
+    image: livekit/egress:v1.12.0
+    restart: unless-stopped
+    cap_add:
+      - SYS_ADMIN
+    shm_size: "1gb"
+    depends_on:
+      redis:
+        condition: service_healthy
+      livekit:
+        condition: service_started
+    environment:
+      EGRESS_CONFIG_FILE: /etc/livekit-egress/egress.yaml
+    ports:
+      - "127.0.0.1:7979:7979"
+      - "127.0.0.1:7978:7978"
+    volumes:
+      - ./egress.yaml:/etc/livekit-egress/egress.yaml:ro
+
+  transcription-agent:
+    build:
+      context: ../transcription-agent
+    restart: unless-stopped
+    stop_grace_period: 15m
+    depends_on:
+      livekit:
+        condition: service_started
+    environment:
+      LIVEKIT_URL: ws://livekit:7880
+      LIVEKIT_API_KEY: ${LIVEKIT_API_KEY:-devkey}
+      LIVEKIT_API_SECRET: ${LIVEKIT_API_SECRET:-devsecret_devsecret_devsecret_devsecret}
+      LIVEKIT_AGENT_NAME: ${LIVEKIT_TRANSCRIPTION_AGENT_NAME:-patvero-transcriber}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_TRANSCRIPTION_MODEL: ${OPENAI_TRANSCRIPTION_MODEL:-gpt-4o-mini-transcribe}
+
+volumes:
+  livekit_redis_data:

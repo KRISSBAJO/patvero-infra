@@ -1,0 +1,25 @@
+{
+  "$comment": "Records the commit of each independently-versioned subproject that together form a working set. The three app repos have their own remotes and are NOT tracked by this repository; liveKit-video-infra IS tracked here. Verify with `npm run pin:check`, restore with `npm run pin:sync`, re-pin with `npm run pin:update`.",
+  "pinnedAt": "2026-08-18",
+  "note": "Document lifecycle repair + mobile caption dedup. Backend and web share the codex/document-lifecycle-repair branch; mobile is one branch behind on codex/captions-summary-fix.",
+  "repositories": {
+    "liveKit-be": {
+      "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
+      "branch": "codex/document-lifecycle-repair",
+      "commit": "cdfbc1ab604b5d453cafacc593f9f6cc2b8954b2",
+      "subject": "fix booking status history relation"
+    },
+    "liveKit-video-fe": {
+      "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
+      "branch": "codex/document-lifecycle-repair",
+      "commit": "00fd64f24e9d083e3c7ad83120a13e3602b67002",
+      "subject": "fix production font asset loading"
+    },
+    "liveKit-video-mobile": {
+      "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
+      "branch": "codex/captions-summary-fix",
+      "commit": "1c5c513e3da9d710f300d250c2c53ba3014cf671",
+      "subject": "fix mobile caption request deduplication"
+    }
+  }
+}

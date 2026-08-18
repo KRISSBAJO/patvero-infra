@@ -1,0 +1,13 @@
+api_key: devkey
+api_secret: devsecret_devsecret_devsecret_devsecret
+ws_url: ws://livekit:7880
+insecure: true
+redis:
+  address: redis:6379
+health_port: 7979
+prometheus_port: 7978
+log_level: info
+enable_chrome_sandbox: false
+session_limits:
+  file_output_max_duration: 4h
+  segment_output_max_duration: 12h

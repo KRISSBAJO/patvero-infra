@@ -1,0 +1,46 @@
+{
+  "name": "mohuddle-livekit",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "liveKit-be",
+    "liveKit-video-fe"
+  ],
+  "scripts": {
+    "dev:api": "npm run start:dev -w liveKit-be",
+    "dev:web": "npm run dev -w liveKit-video-fe",
+    "dev:mobile": "npm --prefix liveKit-video-mobile run start",
+    "db:generate": "npm run db:generate -w liveKit-be",
+    "db:migrate": "npm run db:migrate -w liveKit-be",
+    "db:seed": "npm run db:seed -w liveKit-be",
+    "contracts:update": "npm run openapi:generate -w liveKit-be && npm run contracts:update -w liveKit-video-fe",
+    "infra:up": "docker compose -f liveKit-video-infra/local/docker-compose.yml up -d",
+    "infra:down": "docker compose -f liveKit-video-infra/local/docker-compose.yml down",
+    "infra:logs": "docker compose -f liveKit-video-infra/local/docker-compose.yml logs -f",
+    "pin:check": "node scripts/workspace-pin.mjs check",
+    "pin:sync": "node scripts/workspace-pin.mjs sync",
+    "pin:update": "node scripts/workspace-pin.mjs update",
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "validate": "npm run pin:check && npm run ci -w liveKit-be && npm run ci -w liveKit-video-fe && npm --prefix liveKit-video-mobile run typecheck"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "overrides": {
+    "@nestjs/swagger": {
+      "js-yaml": "^5.2.3"
+    },
+    "lodash-es": "4.18.1",
+    "@excalidraw/excalidraw": {
+      "nanoid": "3.3.17"
+    },
+    "@excalidraw/mermaid-to-excalidraw": {
+      "nanoid": "5.1.16"
+    }
+  }
+}

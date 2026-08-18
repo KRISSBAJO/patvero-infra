@@ -1,0 +1,38 @@
+name: patvero-transcriber
+
+services:
+  transcriber:
+    image: ${TRANSCRIPTION_AGENT_IMAGE:-patvero/transcriber:1.0.0}
+    build:
+      context: .
+    restart: unless-stopped
+    init: true
+    network_mode: host
+    env_file:
+      - ${TRANSCRIPTION_AGENT_ENV_FILE:-.env}
+    environment:
+      LIVEKIT_AGENT_NAME: ${LIVEKIT_AGENT_NAME:-patvero-transcriber}
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=256m
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    pids_limit: 256
+    stop_grace_period: 2m
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - import urllib.request; urllib.request.urlopen('http://127.0.0.1:8081/', timeout=2)
+      interval: 15s
+      timeout: 3s
+      start_period: 30s
+      retries: 5
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "5"
