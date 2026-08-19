@@ -6,8 +6,8 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "aed538413e3b1c088a307ea3550e270dc949bbaa",
-      "subject": "Add batch signing and template context to entries"
+      "commit": "61dab7b452eeabefa5795943a38b6af205f4f530",
+      "subject": "Add a real integration harness for the records lifecycle"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
