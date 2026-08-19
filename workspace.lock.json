@@ -6,14 +6,14 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "67c7f9e3b58fe69eb117e49bad0aa0198c339936",
-      "subject": "Service planning, volunteer rostering, and the Church management plan feature"
+      "commit": "974382ee3edab150690f8a653ec9d3680dee482a",
+      "subject": "Giving and pledges with sealed annual statements"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "de4f2d392747ad5a517389446c68ee08b9bea0dc",
-      "subject": "Services: plan builder, roster board, and church plan gating"
+      "commit": "dd2bf8ecffad5f5a3ce8b166cfb261e71a937eee",
+      "subject": "Giving page: contributions, pledges and sealed statements"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
