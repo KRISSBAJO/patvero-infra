@@ -12,8 +12,8 @@
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "4d2817f92821765da168f0b12843548e294e6f5b",
-      "subject": "Track the failed cover by id instead of an effect"
+      "commit": "e8634e06f9ac1f340572546fe36c0def44ca3902",
+      "subject": "Make the shared-note page comfortable on phones"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
