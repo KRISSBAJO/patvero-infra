@@ -6,14 +6,14 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "28e0db415ae19004b389b36c91c244d1812886b6",
-      "subject": "SMS recap forwarding; enterprise plan always includes full feature catalog"
+      "commit": "a571a6ea2c25b099c305e7f21f0cb3f27231a962",
+      "subject": "Notes as articles: cover + inline images, email send with secure link"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "8561d63d7731177d0b4f2701a1fae207d71dae11",
-      "subject": "Church is a standalone module at /church, out of Professional records"
+      "commit": "0454378920c0581f28da4ced4a410eae57f03606",
+      "subject": "Notes article experience: cover images, inline editor images, send-by-email, article reader"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
