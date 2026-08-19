@@ -6,14 +6,14 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "c149a440bed9e629246734b44d38468b0ebc58fe",
-      "subject": "Issue the signature certificate as a separate document"
+      "commit": "ad64cc51d88b56861307fce023d9abfe83488738",
+      "subject": "Server-stamped signing dates and SMS signer verification"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "f4254585012702dfa20e77c1ee319f5035197565",
-      "subject": "Link the standalone signature certificate from the sealed-document card"
+      "commit": "c8a97eee4c2aca0ad6ea8d757dadfe26f0bdc00a",
+      "subject": "Signed-date vs custom date, SMS challenge gate, and opaque field boxes"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
