@@ -12,8 +12,8 @@
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "23d78864de5df00ac399732035fc30b6d417a5af",
-      "subject": "Church frontend runs on its own domain"
+      "commit": "4d2817f92821765da168f0b12843548e294e6f5b",
+      "subject": "Track the failed cover by id instead of an effect"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
