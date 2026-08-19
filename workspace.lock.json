@@ -6,14 +6,14 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "974382ee3edab150690f8a653ec9d3680dee482a",
-      "subject": "Giving and pledges with sealed annual statements"
+      "commit": "783c21878f0e1a1da4987c047d664d355927ba98",
+      "subject": "Church life: attendance, public intake, events, and child check-in"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "dd2bf8ecffad5f5a3ce8b166cfb261e71a937eee",
-      "subject": "Giving page: contributions, pledges and sealed statements"
+      "commit": "86ce8b980d92e0bb468dd1075219a208d1a63b99",
+      "subject": "First timers, events, check-in and attendance UI"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
