@@ -1,25 +1,25 @@
 {
   "$comment": "Records the commit of each independently-versioned subproject that together form a working set. The three app repos have their own remotes and are NOT tracked by this repository; liveKit-video-infra IS tracked here. Verify with `npm run pin:check`, restore with `npm run pin:sync`, re-pin with `npm run pin:update`.",
-  "pinnedAt": "2026-08-18",
+  "pinnedAt": "2026-08-19",
   "note": "READMEs rewritten to describe the real platform scope across all four projects. Follows the Patvero user-facing copy rename; the Mohuddle identity provider integration remains unchanged.",
   "repositories": {
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "8e69fc30ab1427e9e2b5a01893c7b580b0692f8d",
-      "subject": "Give the provisioned demo room a joinable occurrence"
+      "commit": "aed538413e3b1c088a307ea3550e270dc949bbaa",
+      "subject": "Add batch signing and template context to entries"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "21447b7b0628dfa1039e9e4099f13ef6cb282ec6",
-      "subject": "Use Pat's new landscape photo with a plain crop"
+      "commit": "f7a1994396e7120b63515084b2524a295e42a7e1",
+      "subject": "Batch signing, structured template drafts and schedule sync"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
       "branch": "codex/captions-summary-fix",
-      "commit": "f4a7f50912eaaa54df881a502c82d29685de04f4",
-      "subject": "Sync API contracts after the demo room join code change"
+      "commit": "74d2e9db87088526da06d7ca5be7131ca2f4f44a",
+      "subject": "Sync API contracts for batch finalize"
     }
   }
 }
