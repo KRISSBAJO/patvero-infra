@@ -6,8 +6,8 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "55140f24ed50d532917984e74a3b64bb49c5865e",
-      "subject": "Separate church ministry into its own domain"
+      "commit": "a4e361b776129506cf77c775b16364174a9fa049",
+      "subject": "Allow cross-origin embedding of public note images"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
