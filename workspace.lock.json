@@ -6,14 +6,14 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "ad64cc51d88b56861307fce023d9abfe83488738",
-      "subject": "Server-stamped signing dates and SMS signer verification"
+      "commit": "8d176515aa1fc5ce83a0796d5b766090b5ce6505",
+      "subject": "Preserve field assignments through send and caption burned signatures"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "c8a97eee4c2aca0ad6ea8d757dadfe26f0bdc00a",
-      "subject": "Signed-date vs custom date, SMS challenge gate, and opaque field boxes"
+      "commit": "17d21bfebdac9b52eb7535985d46c1e8a8b9cda3",
+      "subject": "Per-recipient signing flow, editable titles, and identity captions"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
