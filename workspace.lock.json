@@ -6,14 +6,14 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "a571a6ea2c25b099c305e7f21f0cb3f27231a962",
-      "subject": "Notes as articles: cover + inline images, email send with secure link"
+      "commit": "55140f24ed50d532917984e74a3b64bb49c5865e",
+      "subject": "Separate church ministry into its own domain"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "fb64f44e3af3c9b6cb17598f31e45281a68bc348",
-      "subject": "Force single tiptap version via npm overrides (Amplify had nested duplicate @tiptap/core)"
+      "commit": "23d78864de5df00ac399732035fc30b6d417a5af",
+      "subject": "Church frontend runs on its own domain"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
