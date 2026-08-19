@@ -12,8 +12,8 @@
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "76181bf9697d18ea06ac7ea3def913c1c07a42d4",
-      "subject": "Restore qrcode dependency tree to package-lock (workspace hoisting broke npm ci)"
+      "commit": "8561d63d7731177d0b4f2701a1fae207d71dae11",
+      "subject": "Church is a standalone module at /church, out of Professional records"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
