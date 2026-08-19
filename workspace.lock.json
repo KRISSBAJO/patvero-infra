@@ -12,8 +12,8 @@
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "03c5937451fc8ee8971f390db3e950c2a2b92158",
-      "subject": "Rich text controls: fonts, sizes, colors in the note editor"
+      "commit": "d0b08c103196a79d775de0687c55ac6918715ebc",
+      "subject": "Send session cookies on recording playback requests"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
