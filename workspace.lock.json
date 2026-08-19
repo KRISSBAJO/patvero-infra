@@ -6,14 +6,14 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "9c388ae605b2424b26110d7be74313e39f8c1010",
-      "subject": "Add pdf-lib to the backend lockfile"
+      "commit": "c149a440bed9e629246734b44d38468b0ebc58fe",
+      "subject": "Issue the signature certificate as a separate document"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "c67cfe8839b65c193c109aeee635c4542a871562",
-      "subject": "Rebuild the signing ceremony: sign directly on the document"
+      "commit": "f4254585012702dfa20e77c1ee319f5035197565",
+      "subject": "Link the standalone signature certificate from the sealed-document card"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
