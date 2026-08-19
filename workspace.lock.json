@@ -6,14 +6,14 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "412e90c18bcd24a04c3b63fd0b88e576f59b8b22",
-      "subject": "Meeting recap: stored-recap retrieval, branded PDF download, email forwarding"
+      "commit": "28e0db415ae19004b389b36c91c244d1812886b6",
+      "subject": "SMS recap forwarding; enterprise plan always includes full feature catalog"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "42516b2db82d0b5b02a4f0319b73312ddebff7a2",
-      "subject": "Meeting exit: reload stored AI recap, download PDF, print, forward by email"
+      "commit": "6b83fb900a90f1c7e03ceb92145a080accbfc94c",
+      "subject": "Billing page redesign; SMS option in recap forwarding"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
