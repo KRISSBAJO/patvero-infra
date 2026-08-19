@@ -12,8 +12,8 @@
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "0454378920c0581f28da4ced4a410eae57f03606",
-      "subject": "Notes article experience: cover images, inline editor images, send-by-email, article reader"
+      "commit": "fb64f44e3af3c9b6cb17598f31e45281a68bc348",
+      "subject": "Force single tiptap version via npm overrides (Amplify had nested duplicate @tiptap/core)"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
