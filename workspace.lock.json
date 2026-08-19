@@ -6,14 +6,14 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "8d176515aa1fc5ce83a0796d5b766090b5ce6505",
-      "subject": "Preserve field assignments through send and caption burned signatures"
+      "commit": "711c0ddcaca77c1b830b913753aaf2c3cee994b6",
+      "subject": "Remind, copy-link and void operations for sent documents"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "17d21bfebdac9b52eb7535985d46c1e8a8b9cda3",
-      "subject": "Per-recipient signing flow, editable titles, and identity captions"
+      "commit": "8c5be710d6fc020c907a42a3d6d23e23a9d846e2",
+      "subject": "Remind, copy signing link, and void controls in the studio"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
