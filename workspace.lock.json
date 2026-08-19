@@ -6,14 +6,14 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "783c21878f0e1a1da4987c047d664d355927ba98",
-      "subject": "Church life: attendance, public intake, events, and child check-in"
+      "commit": "f9b6c6da1b6134f0691754580a6ce6b5b7f7c11b",
+      "subject": "Church layer 2: shared SMS, insights, groups, sermons"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "86ce8b980d92e0bb468dd1075219a208d1a63b99",
-      "subject": "First timers, events, check-in and attendance UI"
+      "commit": "abc75791ba3512466592a7369ab647e70fbf4ed1",
+      "subject": "Church Insights, Groups, Sermons, kiosk mode and welcome SMS"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
