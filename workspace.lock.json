@@ -6,14 +6,14 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "b136b78971476ec9431a8a39b72e94ca8d1e47ad",
-      "subject": "Ministry industry pack, member households and journey stages"
+      "commit": "67c7f9e3b58fe69eb117e49bad0aa0198c339936",
+      "subject": "Service planning, volunteer rostering, and the Church management plan feature"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "b00f6b24c6f975f147972901850c25e58ebb1bcd",
-      "subject": "Members directory: households and journey pipeline views"
+      "commit": "de4f2d392747ad5a517389446c68ee08b9bea0dc",
+      "subject": "Services: plan builder, roster board, and church plan gating"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
