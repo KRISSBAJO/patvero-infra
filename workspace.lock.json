@@ -6,14 +6,14 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "4ce16aa3ae4c1da60aa5a127d2584c9420e6ac27",
-      "subject": "Office: roster members can invite; space capacity enforced"
+      "commit": "b25e64ed3d9ffb56aae1530d74cd986e9c6d5b37",
+      "subject": "Office realtime bus, calendar presence, guest day-pass, spatial positions"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "15714768902531057d86cdcef6e4c9bf68e9a97b",
-      "subject": "Virtual office: calls that ring, video that starts, spaces that stay"
+      "commit": "00b23c2aca4cd28f99c282949329f0b63778c7d3",
+      "subject": "Office: instant ring socket, meeting-aware presence, day-pass, floor map"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
