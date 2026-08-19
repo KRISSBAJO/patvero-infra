@@ -6,20 +6,20 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "f9b6c6da1b6134f0691754580a6ce6b5b7f7c11b",
-      "subject": "Church layer 2: shared SMS, insights, groups, sermons"
+      "commit": "1faf785dfeb6358ac0586876aa35d69e564ab3ea",
+      "subject": "Case bundle export and records webhooks"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "abc75791ba3512466592a7369ab647e70fbf4ed1",
-      "subject": "Church Insights, Groups, Sermons, kiosk mode and welcome SMS"
+      "commit": "67ca387fc0b87c3261dab1125d4557f7446268ab",
+      "subject": "Case bundle export button and webhooks management page"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
       "branch": "codex/captions-summary-fix",
-      "commit": "2ab6601be2f24f348ea4a685cabaa8556fef3ef0",
-      "subject": "Sync API contracts for the portal history and consent endpoints"
+      "commit": "de8a44ad87b0203236f500061eb1c002c4b20f40",
+      "subject": "Sync review understands records operations"
     }
   }
 }
