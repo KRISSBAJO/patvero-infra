@@ -6,20 +6,20 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "61dab7b452eeabefa5795943a38b6af205f4f530",
-      "subject": "Add a real integration harness for the records lifecycle"
+      "commit": "df9532b7d6f836ed72657fb2a3690cd573b951b6",
+      "subject": "Give portal recipients a durable view and electronic consent"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "f7a1994396e7120b63515084b2524a295e42a7e1",
-      "subject": "Batch signing, structured template drafts and schedule sync"
+      "commit": "e92d70d2799b37f6d97d8a80df69a365a62df06e",
+      "subject": "Portal history, e-sign ceremony, watermarks and an honest wizard"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
       "branch": "codex/captions-summary-fix",
-      "commit": "74d2e9db87088526da06d7ca5be7131ca2f4f44a",
-      "subject": "Sync API contracts for batch finalize"
+      "commit": "2ab6601be2f24f348ea4a685cabaa8556fef3ef0",
+      "subject": "Sync API contracts for the portal history and consent endpoints"
     }
   }
 }
