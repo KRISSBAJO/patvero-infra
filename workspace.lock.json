@@ -6,14 +6,14 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "67444c04cdfda9463307f57f4816fb2aabb15b6b",
-      "subject": "Bind visual signatures into attestations and paginate the audit ledger"
+      "commit": "c074b1fa9552c1206b782ae6470a380bc84e4c32",
+      "subject": "Seal completed documents: burn signatures into the PDF with a certificate"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "e3329d0657f2cff342d77b55881b70d8e3af5739",
-      "subject": "Restyle the purpose gate and signature capture to the records design scale"
+      "commit": "c67cfe8839b65c193c109aeee635c4542a871562",
+      "subject": "Rebuild the signing ceremony: sign directly on the document"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
