@@ -6,14 +6,14 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "1faf785dfeb6358ac0586876aa35d69e564ab3ea",
-      "subject": "Case bundle export and records webhooks"
+      "commit": "d02949320d2282e27d7b5b261b0c271fdf6110cd",
+      "subject": "Public sermon page and Termii v3 support"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "67ca387fc0b87c3261dab1125d4557f7446268ab",
-      "subject": "Case bundle export button and webhooks management page"
+      "commit": "4cc6c01b4f4f9660974583addc8fc2dd99a315ad",
+      "subject": "Congregant-facing sermon page"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
