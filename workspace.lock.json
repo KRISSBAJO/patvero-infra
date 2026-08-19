@@ -12,8 +12,8 @@
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "6b83fb900a90f1c7e03ceb92145a080accbfc94c",
-      "subject": "Billing page redesign; SMS option in recap forwarding"
+      "commit": "c54d91787736c2ea9c007b697424d00d3c365577",
+      "subject": "Main sidebar: top-level Church entry gated on church.ministry"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
