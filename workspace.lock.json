@@ -6,14 +6,14 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "b25e64ed3d9ffb56aae1530d74cd986e9c6d5b37",
-      "subject": "Office realtime bus, calendar presence, guest day-pass, spatial positions"
+      "commit": "b136b78971476ec9431a8a39b72e94ca8d1e47ad",
+      "subject": "Ministry industry pack, member households and journey stages"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "00b23c2aca4cd28f99c282949329f0b63778c7d3",
-      "subject": "Office: instant ring socket, meeting-aware presence, day-pass, floor map"
+      "commit": "b00f6b24c6f975f147972901850c25e58ebb1bcd",
+      "subject": "Members directory: households and journey pipeline views"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
