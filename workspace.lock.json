@@ -6,14 +6,14 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "df9532b7d6f836ed72657fb2a3690cd573b951b6",
-      "subject": "Give portal recipients a durable view and electronic consent"
+      "commit": "67444c04cdfda9463307f57f4816fb2aabb15b6b",
+      "subject": "Bind visual signatures into attestations and paginate the audit ledger"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "aa3127e0413e9a338a9d36dd8267bb0276b0097a",
-      "subject": "Add the professional records user guide"
+      "commit": "87b0f337ae4855e4fbe84ffe4617c3a01f8e8829",
+      "subject": "Signature pad, purpose-of-access gate and audit filters"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
