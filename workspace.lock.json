@@ -12,8 +12,8 @@
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "87b0f337ae4855e4fbe84ffe4617c3a01f8e8829",
-      "subject": "Signature pad, purpose-of-access gate and audit filters"
+      "commit": "3336a78b07d253d32a2925f5e850a9ebc23a5a6e",
+      "subject": "Document signature capture, purpose gate and audit filters in the user guide"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
