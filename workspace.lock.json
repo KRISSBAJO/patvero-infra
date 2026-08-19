@@ -12,8 +12,8 @@
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "e92d70d2799b37f6d97d8a80df69a365a62df06e",
-      "subject": "Portal history, e-sign ceremony, watermarks and an honest wizard"
+      "commit": "aa3127e0413e9a338a9d36dd8267bb0276b0097a",
+      "subject": "Add the professional records user guide"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
