@@ -6,14 +6,14 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "711c0ddcaca77c1b830b913753aaf2c3cee994b6",
-      "subject": "Remind, copy-link and void operations for sent documents"
+      "commit": "4ce16aa3ae4c1da60aa5a127d2584c9420e6ac27",
+      "subject": "Office: roster members can invite; space capacity enforced"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "8c5be710d6fc020c907a42a3d6d23e23a9d846e2",
-      "subject": "Remind, copy signing link, and void controls in the studio"
+      "commit": "15714768902531057d86cdcef6e4c9bf68e9a97b",
+      "subject": "Virtual office: calls that ring, video that starts, spaces that stay"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
