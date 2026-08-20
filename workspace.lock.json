@@ -12,8 +12,8 @@
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "codex/document-lifecycle-repair",
-      "commit": "8d46c9e2799c1e9f29f77a2efbc0b11b391124db",
-      "subject": "Groups page: free-form types, schedule fields, member roles"
+      "commit": "c1ea3fd2470a7e9a5ab50ba00752fba9442bba83",
+      "subject": "Members page grows up: insight tiles, collapsible journey, CSV export"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
