@@ -5,21 +5,21 @@
   "repositories": {
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
-      "branch": "codex/document-lifecycle-repair",
-      "commit": "58ac35622c9cc30ec4e36fdd5487091e5d70773a",
-      "subject": "Groups grow into full teams: any type, schedule and description"
+      "branch": "main",
+      "commit": "cd97fc2270a4cd3c00e53dc097c8bcd419d42875",
+      "subject": "Patvero Care: residential group homes vertical (Tennessee-shaped)"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
-      "branch": "codex/document-lifecycle-repair",
-      "commit": "c1ea3fd2470a7e9a5ab50ba00752fba9442bba83",
-      "subject": "Members page grows up: insight tiles, collapsible journey, CSV export"
+      "branch": "main",
+      "commit": "d9bde80efe08303eb9fa074517c0555767954f47",
+      "subject": "Patvero Care frontend: dashboard, homes, residents, notes, REM, MAR"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
-      "branch": "codex/captions-summary-fix",
-      "commit": "de8a44ad87b0203236f500061eb1c002c4b20f40",
-      "subject": "Sync review understands records operations"
+      "branch": "main",
+      "commit": "2e74cabb48dea22bb988f3c535d13c11638edb9f",
+      "subject": "Add leader and congregant Church mobile home"
     }
   }
 }
