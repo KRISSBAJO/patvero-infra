@@ -6,14 +6,14 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "main",
-      "commit": "e9374d5133ab6d0d77b09555c875002ce66c933f",
-      "subject": "Care phase two: scheduling, EVV capture, billing, family portal, reports"
+      "commit": "da6d5f82c982327e8f48b21d66e9cd31acd0f9d4",
+      "subject": "Staff credentials: certificates on file, and warnings before they lapse"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "main",
-      "commit": "6cfcfb595d149c9c3911298c18e42b39ea64c5b5",
-      "subject": "Care schedule becomes a real calendar"
+      "commit": "d1b505e83943a0b1ae3ed8f7194ace99de1ce081",
+      "subject": "Staff page becomes a credential register"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
