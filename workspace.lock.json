@@ -6,14 +6,14 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "main",
-      "commit": "cd97fc2270a4cd3c00e53dc097c8bcd419d42875",
-      "subject": "Patvero Care: residential group homes vertical (Tennessee-shaped)"
+      "commit": "e9374d5133ab6d0d77b09555c875002ce66c933f",
+      "subject": "Care phase two: scheduling, EVV capture, billing, family portal, reports"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "main",
-      "commit": "d9bde80efe08303eb9fa074517c0555767954f47",
-      "subject": "Patvero Care frontend: dashboard, homes, residents, notes, REM, MAR"
+      "commit": "95aaa04aefdccdff9d1bbab841e435fda85adefb",
+      "subject": "Care phase two frontend: schedule, EVV, billing, family portal, reports"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
