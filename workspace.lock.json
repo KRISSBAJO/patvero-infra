@@ -12,8 +12,8 @@
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "main",
-      "commit": "95aaa04aefdccdff9d1bbab841e435fda85adefb",
-      "subject": "Care phase two frontend: schedule, EVV, billing, family portal, reports"
+      "commit": "6cfcfb595d149c9c3911298c18e42b39ea64c5b5",
+      "subject": "Care schedule becomes a real calendar"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
