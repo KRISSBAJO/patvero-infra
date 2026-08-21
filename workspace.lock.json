@@ -1,25 +1,25 @@
 {
   "$comment": "Records the commit of each independently-versioned subproject that together form a working set. The three app repos have their own remotes and are NOT tracked by this repository; liveKit-video-infra IS tracked here. Verify with `npm run pin:check`, restore with `npm run pin:sync`, re-pin with `npm run pin:update`.",
   "pinnedAt": "2026-08-21",
-  "note": "Phase 1 financial-workflow foundation: shared payments, hardened sessions and webhooks, required encryption, synchronized contracts, CI security checks, and encrypted mobile offline data. Credential rotation was intentionally excluded.",
+  "note": "Phase 2 Patvero Giving MVP: Stripe Connect onboarding, hosted checkout, funds and campaigns, recurring gifts, immutable webhook ledger, receipts, refunds, payouts and reconciliation, branded web giving, and donor history on web and mobile. Regulated payment and identity documents remain with Stripe.",
   "repositories": {
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "main",
-      "commit": "b5b5cc43aaa7217fc8cbfe858fb395c0b0aa82cb",
-      "subject": "Starting questions, so nobody types the whole thing in"
+      "commit": "93a5c6c4922248e24f4b26b0fef0a69e1519ac9b",
+      "subject": "Fix care notes lint after integration"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "main",
-      "commit": "c6592ce863913b9249a9e3b42e2d75f400026bce",
-      "subject": "Incidents as a table, and finance in one place"
+      "commit": "15448567673f09e19c5cfdb727587ab1ed36d015",
+      "subject": "Build branded Stripe Giving experience"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
       "branch": "main",
-      "commit": "df7f6582b8c17300d976fe37fbf42ee4c4701048",
-      "subject": "Encrypt offline workflows and harden mobile sessions"
+      "commit": "8fa86cb2eac3d72e0a139804f4c5d96417f5e799",
+      "subject": "Add mobile donor Giving history and synchronize contracts"
     }
   }
 }
