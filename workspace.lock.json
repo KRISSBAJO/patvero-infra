@@ -6,20 +6,20 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "main",
-      "commit": "0660e8192affb00fbdb88e4bb68b2a0c6eeafac5",
-      "subject": "Use Stripe default client import"
+      "commit": "ee7f34270944da6920221445be70eb786274b5ec",
+      "subject": "A library of documentation templates, adopted and then owned"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "main",
       "commit": "4cd77a33847af1025f40172bfd5d7f1dcdc0368c",
-      "subject": "Simplify church launch navigation"
+      "subject": "feat(church): simplify launch navigation"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
       "branch": "main",
       "commit": "37066437878bf28d945fb78d1613b3ddefca8386",
-      "subject": "Verify generated contract integrity in CI"
+      "subject": "fix(ci): verify generated contract integrity"
     }
   }
 }
