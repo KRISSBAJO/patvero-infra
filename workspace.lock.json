@@ -6,14 +6,14 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "main",
-      "commit": "05d0ea0268db137872e240415e5ba7c11bd136f6",
-      "subject": "Correct the curriculum to how Tennessee actually structures training"
+      "commit": "64fcab4874ba8a46cc2800ddc2d3809eabe8467c",
+      "subject": "The rest of a resident's file: belongings, circle, funds, appointments"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "main",
-      "commit": "4fd57a5999fd60fdae761d67ebfa762015563d39",
-      "subject": "Show the curriculum the way Tennessee structures it"
+      "commit": "c2e3ce68169597005623d7f73850a285337f19d8",
+      "subject": "Point care downloads at the renamed helpers"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
