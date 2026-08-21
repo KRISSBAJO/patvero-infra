@@ -1,13 +1,13 @@
 {
   "$comment": "Records the commit of each independently-versioned subproject that together form a working set. The three app repos have their own remotes and are NOT tracked by this repository; liveKit-video-infra IS tracked here. Verify with `npm run pin:check`, restore with `npm run pin:sync`, re-pin with `npm run pin:update`.",
   "pinnedAt": "2026-08-21",
-  "note": "Two-step church launch approval: staff submit evidence in Pilot launch and Patvero administrators approve or request changes from the admin review queue.",
+  "note": "Two-step church launch approval with a durable super-administrator permission bootstrap for the independent review queue.",
   "repositories": {
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "main",
-      "commit": "5e894e06f224ae1c4885b50a82e10eff5cf2a6ec",
-      "subject": "feat(church): add independent launch evidence review"
+      "commit": "8e44396d23f26793ee2eeb8d99277ffef7e8f2f1",
+      "subject": "fix(admin): bootstrap super admin permissions"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
