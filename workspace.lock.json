@@ -18,8 +18,8 @@
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
       "branch": "main",
-      "commit": "4df0e80181cd98faca48043825768392062617d4",
-      "subject": "Surface giving on mobile home"
+      "commit": "f772f83debf20ff58d413f3ccd2bb687a3deab7a",
+      "subject": "Checkout backend contract schema in CI"
     }
   }
 }
