@@ -1,7 +1,7 @@
 {
   "$comment": "Records the commit of each independently-versioned subproject that together form a working set. The three app repos have their own remotes and are NOT tracked by this repository; liveKit-video-infra IS tracked here. Verify with `npm run pin:check`, restore with `npm run pin:sync`, re-pin with `npm run pin:update`.",
   "pinnedAt": "2026-08-21",
-  "note": "Phase 6 pilot-acceptance UI: consolidated Giving workflows, a streamlined Stripe-hosted donor flow, and explicit previous/next paging for the bounded Church navigation strip.",
+  "note": "Phase 6 pilot-acceptance UI: consolidated Giving workflows, explicit Church navigation paging, and an uncached retry path for newly activated public widgets.",
   "repositories": {
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
@@ -12,8 +12,8 @@
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "main",
-      "commit": "0a0ac69353948083fc62932c91ad11646e85470f",
-      "subject": "Add church navigation paging controls"
+      "commit": "bc020a8dd25feee3afe1f81bf9644c31ef3e6dc5",
+      "subject": "fix(church): refresh activated public widgets"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
