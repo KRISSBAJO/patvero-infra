@@ -18,8 +18,8 @@
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
       "branch": "main",
-      "commit": "f772f83debf20ff58d413f3ccd2bb687a3deab7a",
-      "subject": "Checkout backend contract schema in CI"
+      "commit": "37066437878bf28d945fb78d1613b3ddefca8386",
+      "subject": "Verify generated contract integrity in CI"
     }
   }
 }
