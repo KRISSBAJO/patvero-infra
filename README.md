@@ -35,6 +35,9 @@ Principal domains:
 - **Platform** — subscriptions and entitlements, notifications, recordings and
   transcripts, universal search, resumable uploads, workspaces
 
+Pilot operations for the gated Patvero Church commercial launch are documented
+in [the Winners Chapel Phase 5 runbook](docs/phase5-winners-chapel-pilot-runbook.md).
+
 ## Project layout
 
 ```text
