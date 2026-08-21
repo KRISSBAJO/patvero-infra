@@ -6,8 +6,8 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "main",
-      "commit": "3b620521382ecba88fbafa39cbd1f5fd8d150468",
-      "subject": "Assert isolated backend smoke dependencies"
+      "commit": "0660e8192affb00fbdb88e4bb68b2a0c6eeafac5",
+      "subject": "Use Stripe default client import"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
