@@ -6,14 +6,14 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "main",
-      "commit": "973566a888f4042bd7661bfd2164202526251dd0",
-      "subject": "Add gated commercial launch platform"
+      "commit": "0574c286c9e8dc76723c3bda6ac539be47067884",
+      "subject": "Fetch parent for backend secret scan"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "main",
-      "commit": "8d59e9f05ba41c96ad3026c40475f0376616a24d",
-      "subject": "Add pilot launch operations"
+      "commit": "734987421cbc75a61a285c7f5ccef77bb31eab3a",
+      "subject": "Fetch parent for frontend secret scan"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
