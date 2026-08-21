@@ -6,14 +6,14 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "main",
-      "commit": "f3a95f55e39a83c8a7bda8e1e6196afb33f18514",
-      "subject": "Secure Phase 1 payments and platform foundations"
+      "commit": "b5b5cc43aaa7217fc8cbfe858fb395c0b0aa82cb",
+      "subject": "Starting questions, so nobody types the whole thing in"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "main",
-      "commit": "dcde72d4c1488e736ae2beb9c0565605853824ed",
-      "subject": "Harden sessions and synchronize platform contracts"
+      "commit": "c6592ce863913b9249a9e3b42e2d75f400026bce",
+      "subject": "Incidents as a table, and finance in one place"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
