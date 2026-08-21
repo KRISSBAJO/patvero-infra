@@ -12,14 +12,14 @@
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "main",
-      "commit": "734987421cbc75a61a285c7f5ccef77bb31eab3a",
-      "subject": "Fetch parent for frontend secret scan"
+      "commit": "4cd77a33847af1025f40172bfd5d7f1dcdc0368c",
+      "subject": "Simplify church launch navigation"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
       "branch": "main",
-      "commit": "8f81e6b1f49a5021cd638a89e6e0d23955bf6592",
-      "subject": "Sync church launch contract"
+      "commit": "4df0e80181cd98faca48043825768392062617d4",
+      "subject": "Surface giving on mobile home"
     }
   }
 }
