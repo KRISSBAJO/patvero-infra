@@ -1,7 +1,7 @@
 {
   "$comment": "Records the commit of each independently-versioned subproject that together form a working set. The three app repos have their own remotes and are NOT tracked by this repository; liveKit-video-infra IS tracked here. Verify with `npm run pin:check`, restore with `npm run pin:sync`, re-pin with `npm run pin:update`.",
   "pinnedAt": "2026-08-21",
-  "note": "Church launch evidence shortcuts plus an aligned, responsive Giving administration workspace for deposits, statements, funds and setup.",
+  "note": "Church and Care now use five grouped product navigations; mobile Giving uses the canonical www host and secure in-app donation flow.",
   "repositories": {
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
@@ -12,14 +12,14 @@
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "main",
-      "commit": "b5710ff36c037157950eabe8cc50d082af0c44eb",
-      "subject": "feat(church): improve giving and readiness workflows"
+      "commit": "e94c580a1cd9518ad1a464b729f6f0b67a3e223f",
+      "subject": "feat(navigation): group church and care workspaces"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
       "branch": "main",
-      "commit": "9202caf662cdfb9c8e435122e94decb704692ade",
-      "subject": "chore(api): sync launch review contracts"
+      "commit": "25318b43cd3341967ab924ca5ea4ab303850da1a",
+      "subject": "fix(giving): use canonical mobile donation flow"
     }
   }
 }
