@@ -1,25 +1,25 @@
 {
   "$comment": "Records the commit of each independently-versioned subproject that together form a working set. The three app repos have their own remotes and are NOT tracked by this repository; liveKit-video-infra IS tracked here. Verify with `npm run pin:check`, restore with `npm run pin:sync`, re-pin with `npm run pin:update`.",
   "pinnedAt": "2026-08-21",
-  "note": "Phase 3 Patvero Church Management System: duplicate-aware member intake, child check-in label printing, cash and check giving, detailed and QuickBooks-compatible finance exports, fine-grained ministry permissions, synchronized web/mobile contracts, and all existing church operations retained.",
+  "note": "Phase 4 Patvero Congregant Mobile Experience: multi-tenant church branding and navigation, giving and statements, live services and sermons, events, groups, prayer, push announcements, volunteer responses, member profiles, signed check-in pickup QR codes, deep links, secure workspace switching, and offline-safe member actions.",
   "repositories": {
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "main",
-      "commit": "c87d59caba136c188989a468b02fe05e1d436340",
-      "subject": "House managers can shape their own documentation"
+      "commit": "dd7c61a027f064b8d3b77cc964b0895bc396e35f",
+      "subject": "Add congregant mobile platform"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "main",
-      "commit": "cf28c1f98a1fe0e2033b11182050f14992fb746a",
-      "subject": "Complete church administration workflows"
+      "commit": "0df932f70536fe6788073c55dfdb5d9269a966b2",
+      "subject": "Configure congregant mobile experience"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
       "branch": "main",
-      "commit": "0ac686ee9b3c90f156a07ba76fb967ca90643660",
-      "subject": "Synchronize church management API contract"
+      "commit": "56e938aa275fee4c80ddd8e2553c5609d7286804",
+      "subject": "Build congregant member experience"
     }
   }
 }
