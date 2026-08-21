@@ -1,7 +1,7 @@
 {
   "$comment": "Records the commit of each independently-versioned subproject that together form a working set. The three app repos have their own remotes and are NOT tracked by this repository; liveKit-video-infra IS tracked here. Verify with `npm run pin:check`, restore with `npm run pin:sync`, re-pin with `npm run pin:update`.",
   "pinnedAt": "2026-08-21",
-  "note": "Phase 5 Patvero commercial-launch foundation: Winners Chapel pilot controls, exact-email operator gate, contribution imports, campus routing, public widgets, text-to-give, kiosk sessions, subscriptions and usage, support and disputes, recovery/legal evidence gates, and staged 1-to-3-to-10 rollout.",
+  "note": "Phase 6 pilot-acceptance UI: a consolidated Giving workspace for online transactions, recurring gifts, deposits, statements, cash/check batches, funds and forms, plus a streamlined Stripe-hosted public donor flow.",
   "repositories": {
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
@@ -12,8 +12,8 @@
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "main",
-      "commit": "7ee4a97b4ea07f641fc5f94c6aa6f521f63cfa18",
-      "subject": "Consolidate church giving operations"
+      "commit": "b6767e7e01c0c6e3a0571fefc899a91dcfa00d7b",
+      "subject": "Unify church giving workflows"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
