@@ -6,8 +6,8 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "main",
-      "commit": "0574c286c9e8dc76723c3bda6ac539be47067884",
-      "subject": "Fetch parent for backend secret scan"
+      "commit": "98c28c273f10f0e1f01ed17b20bc10173fd153e1",
+      "subject": "Enforce Linux deployment script line endings"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
