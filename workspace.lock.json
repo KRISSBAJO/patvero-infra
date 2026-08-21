@@ -1,19 +1,19 @@
 {
   "$comment": "Records the commit of each independently-versioned subproject that together form a working set. The three app repos have their own remotes and are NOT tracked by this repository; liveKit-video-infra IS tracked here. Verify with `npm run pin:check`, restore with `npm run pin:sync`, re-pin with `npm run pin:update`.",
-  "pinnedAt": "2026-08-20",
+  "pinnedAt": "2026-08-21",
   "note": "READMEs rewritten to describe the real platform scope across all four projects. Follows the Patvero user-facing copy rename; the Mohuddle identity provider integration remains unchanged.",
   "repositories": {
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "main",
-      "commit": "2331887445048c648a598d1dbcb2bbd0ff2e7393",
-      "subject": "Training records and the annual tracker"
+      "commit": "05d0ea0268db137872e240415e5ba7c11bd136f6",
+      "subject": "Correct the curriculum to how Tennessee actually structures training"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "main",
-      "commit": "dfc1dbbe9b62c5c71721ef6f6d4b82503df4c842",
-      "subject": "Staff as a nested table, plus the training tracker"
+      "commit": "4fd57a5999fd60fdae761d67ebfa762015563d39",
+      "subject": "Show the curriculum the way Tennessee structures it"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
