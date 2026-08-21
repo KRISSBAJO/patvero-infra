@@ -6,14 +6,14 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "main",
-      "commit": "ee7f34270944da6920221445be70eb786274b5ec",
-      "subject": "A library of documentation templates, adopted and then owned"
+      "commit": "0660e8192affb00fbdb88e4bb68b2a0c6eeafac5",
+      "subject": "Use Stripe default client import"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "main",
-      "commit": "4cd77a33847af1025f40172bfd5d7f1dcdc0368c",
-      "subject": "feat(church): simplify launch navigation"
+      "commit": "93cc45f5b2e3934ef3987ea60c5a1f820740a018",
+      "subject": "Pin audited frontend transitive dependencies"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
