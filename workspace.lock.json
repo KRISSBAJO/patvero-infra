@@ -6,8 +6,8 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "main",
-      "commit": "f6c08e5b0cc8c75f5e4d54d8e74d554d1bda886e",
-      "subject": "Complete church management operations"
+      "commit": "c87d59caba136c188989a468b02fe05e1d436340",
+      "subject": "House managers can shape their own documentation"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
