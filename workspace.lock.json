@@ -12,8 +12,8 @@
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "main",
-      "commit": "8a8a2981f19011dfbd1e2578ce7bc7dd1c41439f",
-      "subject": "Explain staged church widget readiness"
+      "commit": "7ee4a97b4ea07f641fc5f94c6aa6f521f63cfa18",
+      "subject": "Consolidate church giving operations"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
