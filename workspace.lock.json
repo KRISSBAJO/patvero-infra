@@ -6,8 +6,8 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "main",
-      "commit": "6e011720f988149116551730177d8d8ed1776b57",
-      "subject": "Complete backend production smoke secrets"
+      "commit": "3b620521382ecba88fbafa39cbd1f5fd8d150468",
+      "subject": "Assert isolated backend smoke dependencies"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
