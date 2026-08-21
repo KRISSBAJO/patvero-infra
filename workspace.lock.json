@@ -6,8 +6,8 @@
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "main",
-      "commit": "98c28c273f10f0e1f01ed17b20bc10173fd153e1",
-      "subject": "Enforce Linux deployment script line endings"
+      "commit": "24d4d1780c634c2d080196bc3c9d054359fde16c",
+      "subject": "Isolate backend smoke-test port"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
