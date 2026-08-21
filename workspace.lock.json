@@ -1,25 +1,25 @@
 {
   "$comment": "Records the commit of each independently-versioned subproject that together form a working set. The three app repos have their own remotes and are NOT tracked by this repository; liveKit-video-infra IS tracked here. Verify with `npm run pin:check`, restore with `npm run pin:sync`, re-pin with `npm run pin:update`.",
   "pinnedAt": "2026-08-21",
-  "note": "READMEs rewritten to describe the real platform scope across all four projects. Follows the Patvero user-facing copy rename; the Mohuddle identity provider integration remains unchanged.",
+  "note": "Phase 1 financial-workflow foundation: shared payments, hardened sessions and webhooks, required encryption, synchronized contracts, CI security checks, and encrypted mobile offline data. Credential rotation was intentionally excluded.",
   "repositories": {
     "liveKit-be": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-be.git",
       "branch": "main",
-      "commit": "64fcab4874ba8a46cc2800ddc2d3809eabe8467c",
-      "subject": "The rest of a resident's file: belongings, circle, funds, appointments"
+      "commit": "f3a95f55e39a83c8a7bda8e1e6196afb33f18514",
+      "subject": "Secure Phase 1 payments and platform foundations"
     },
     "liveKit-video-fe": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-fe.git",
       "branch": "main",
-      "commit": "c2e3ce68169597005623d7f73850a285337f19d8",
-      "subject": "Point care downloads at the renamed helpers"
+      "commit": "dcde72d4c1488e736ae2beb9c0565605853824ed",
+      "subject": "Harden sessions and synchronize platform contracts"
     },
     "liveKit-video-mobile": {
       "remote": "https://github.com/KRISSBAJO/mohuddle-liveKit-mobile.git",
       "branch": "main",
-      "commit": "2e74cabb48dea22bb988f3c535d13c11638edb9f",
-      "subject": "Add leader and congregant Church mobile home"
+      "commit": "df7f6582b8c17300d976fe37fbf42ee4c4701048",
+      "subject": "Encrypt offline workflows and harden mobile sessions"
     }
   }
 }

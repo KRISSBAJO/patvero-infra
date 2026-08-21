@@ -13,7 +13,7 @@
     "db:generate": "npm run db:generate -w liveKit-be",
     "db:migrate": "npm run db:migrate -w liveKit-be",
     "db:seed": "npm run db:seed -w liveKit-be",
-    "contracts:update": "npm run openapi:generate -w liveKit-be && npm run contracts:update -w liveKit-video-fe",
+    "contracts:update": "npm run openapi:generate -w liveKit-be && npm run contracts:update -w liveKit-video-fe && npm --prefix liveKit-video-mobile run contracts:generate",
     "infra:up": "docker compose -f liveKit-video-infra/local/docker-compose.yml up -d",
     "infra:down": "docker compose -f liveKit-video-infra/local/docker-compose.yml down",
     "infra:logs": "docker compose -f liveKit-video-infra/local/docker-compose.yml logs -f",
@@ -22,7 +22,7 @@
     "pin:update": "node scripts/workspace-pin.mjs update",
     "build": "npm run build --workspaces --if-present",
     "test": "npm run test --workspaces --if-present",
-    "validate": "npm run pin:check && npm run ci -w liveKit-be && npm run ci -w liveKit-video-fe && npm --prefix liveKit-video-mobile run typecheck"
+    "validate": "npm run pin:check && npm run ci -w liveKit-be && npm run ci -w liveKit-video-fe && npm --prefix liveKit-video-mobile run ci"
   },
   "engines": {
     "node": ">=22"
@@ -37,10 +37,12 @@
     },
     "lodash-es": "4.18.1",
     "@excalidraw/excalidraw": {
-      "nanoid": "3.3.17"
+      "nanoid": "3.3.18"
     },
     "@excalidraw/mermaid-to-excalidraw": {
       "nanoid": "5.1.16"
-    }
+    },
+    "postcss": "8.5.26",
+    "sharp": "0.35.3"
   }
 }
