@@ -1,0 +1,22 @@
+# The apex uses the existing API host only for public app-link verification.
+# Keep the canonical website and source association documents on Amplify.
+patvero.com {
+    @app_associations {
+        method GET HEAD
+        path /.well-known/assetlinks.json /.well-known/apple-app-site-association
+    }
+    handle @app_associations {
+        reverse_proxy https://www.patvero.com {
+            header_up Host www.patvero.com
+            header_up -Authorization
+            header_up -Cookie
+            header_down -Set-Cookie
+            transport http {
+                tls_server_name www.patvero.com
+            }
+        }
+    }
+    handle {
+        redir https://www.patvero.com{uri} permanent
+    }
+}
